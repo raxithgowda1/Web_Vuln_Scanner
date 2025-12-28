@@ -1,3 +1,8 @@
+# Run the Scanner:
+http://testphp.vulnweb.com/listproducts.php?cat=1
+python scanner.py
+
+# Output Report:
 [SQLi] Vulnerable Parameter: cat | Payload: ' OR '1'='1
 [XSS] Vulnerable Parameter: search | Payload: <script>alert(1)</script>
 [Open Redirect] Parameter: redirect | Redirects to https://google.com
